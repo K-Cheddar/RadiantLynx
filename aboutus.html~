@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Team</title>
+		<link rel="stylesheet" href="styles.css"/>
+	</head>
+
+	<body>
+		<div>
+			<h1 class="center-text">
+				<a href="index.html">
+					Home button
+				</a>
+			</h1>
+
+			<div>
+				<table class="link-tab">
+					<tr>
+						<td><a href="summary.html">Summary</a></td>
+						<td class="pad-cell-left"><a href="references.html">References</a></td>
+						<td class="pad-cell-left"><a href="presentation.html">Presentation</a></td>
+						<td class="pad-cell-left"><a href="aboutus.html">Team</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<br/>
+
+		<p class="large-text center-text" style="margin: 0px;">
+			The team
+		</p>
+
+		<table class="link-tab">
+
+			<tr>
+				<td>
+					<div>
+						<p class="large-text">
+							<img class="circle-clip-100px" src="Kevin_Cheddar.jpg" height="200px" width="200px"/>
+							Kevin Cheddar
+						</p>
+						<p class="shift-text-right">
+							I am a computer science major who enjoys gaming and project creation.
+						</p>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div>
+						<p class="large-text">
+							<img class="circle-clip-100px" src="alexhu.jpg" height="200px" width="200px"/>
+							Alex Hu
+						</p>
+						<p class="shift-text-right">
+							I am a computer engineering major.
+						</p>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div>
+						<p class="large-text">
+							<img class="circle-clip-100px" src="luisp.jpg" height="200px" width="200px"/>
+							Luis Pino
+						</p>
+						<p class="shift-text-right">
+							I am a DAS major.
+						</p>
+					</div>
+				</td>
+			</tr>
+
+			<tr>	
+				<td>
+					<div>
+						<p class="large-text">
+							<img class="circle-clip-100px" src="geoff.jpg" height="200px" width="200px"/>
+							Geoff Turman
+						</p>
+						<p class="shift-text-right">
+							Hello, my name is Geoff which is Jeff but spelled funny. I like to play video games and typing long biographies on class project websites. 
+						</p>
+					</div>
+				</td>
+			</tr>
+
+		</table>
+
+	</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Resources</title>
+		<link rel="stylesheet" href="styles.css"/>
+	</head>
+
+	<body>
+		<div>
+			<h1 class="center-text">
+				<a href="index.html">
+					Home button
+				</a>
+			</h1>
+
+			<div>
+				<table class="link-tab">
+					<tr>
+						<td><a href="summary.html">Summary</a></td>
+						<td class="pad-cell-left"><a href="references.html">References</a></td>
+						<td class="pad-cell-left"><a href="presentation.html">Presentation</a></td>
+						<td class="pad-cell-left"><a href="aboutus.html">Team</a></td>
+						<td class="pad-cell-left"><a href="resources.html">Resources</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<br/>
+
+		<p class="large-text center-text" style="margin: 0px;">
+			Resources
+		</p>
+		
+		<div class="center-text">
+			<p>
+				Lorem ipsum dolor sit amet, 
+				consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			
+			<p>
+				More text and images can go here or below too!
+			</p>
+		</div>
+
+	</body>
+</html>

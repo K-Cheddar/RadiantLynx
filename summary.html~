@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Summay</title>
+		<link rel="stylesheet" href="styles.css"/>
+	</head>
+
+	<body>
+		<div>
+			<h1 class="center-text">
+				<a href="index.html">
+					Home button
+				</a>
+			</h1>
+
+			<div>
+				<table class="link-tab">
+					<tr>
+						<td><a href="summary.html">Summary</a></td>
+						<td class="pad-cell-left"><a href="references.html">References</a></td>
+						<td class="pad-cell-left"><a href="presentation.html">Presentation</a></td>
+						<td class="pad-cell-left"><a href="aboutus.html">Team</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<br/>
+
+		<p class="large-text center-text" style="margin: 0px;">
+			Summary
+		</p>
+		
+		<div class="center-text" style="margin: 20px">
+			<p>
+				Ray tracing in graphics is a technique that allows the computer to draw extremely real pictures by using physics!
+				<br/>
+				<br/>
+				The idea is that the sun's light hits an object and reflects off that object. What we see are the photons hitting our eyes.
+				<br/>
+				<img alt="We see a red box when the sunlight reflects off of the box" title="Sunlight reflecting off of a red box" src="weareseeingcolors.png"/>
+				<br/>
+				We use this concept to generate realistic computer graphics by simulating sunlight reflecting off of three dimensional objects and entering an eye.
+				This will allow the computer to simulate shadows, depth, and other interesting things about the object.
+			</p>
+		</div>
+		
+	</body>
+</html>
