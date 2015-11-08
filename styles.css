@@ -42,6 +42,72 @@ table td.pad-cell-left
 {
 	padding-left: 10px;
 }
+body {
+
+    background: url('background.png') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#section {
+    line-height:30px;
+    background-color:#bababa;
+    height:200px;
+    width:800px;
+    text-align: justify;
+    padding:25px;
+    margin-right:auto;
+    margin-left:auto; 
+}
+#sectionSummary {
+    line-height:30px;
+    background-color:#bababa;
+    height:220px;
+    width:800px;
+    text-align: justify;
+    padding:25px;
+    margin-right:auto;
+    margin-left:auto; 
+}
+
+#sectionReferences {
+    line-height:30px;
+    background-color:#bababa;
+    height:600px;
+    width:800px;
+    text-align: justify;
+    padding:25px;
+    margin-right:auto;
+    margin-left:auto; 
+}
+
+#sectionTeam {
+    line-height:30px;
+    background-color:#bababa;
+    height:1400px;
+    width:800px;
+    text-align: justify;
+    padding:25px;
+    margin-right:auto;
+    margin-left:auto; 
+}
+
+#sectionPresentation {
+    line-height:30px;
+    background-color:#bababa;
+    height:500px;
+    width:800px;
+    text-align: center;
+    padding:25px;
+    margin-right:auto;
+    margin-left:auto; 
+}
+#menu{
+    margin-right:auto;
+    margin-left:auto; 
+}
 
 .homeButton {
   background: #34d997;
@@ -97,7 +163,7 @@ table td.pad-cell-left
   text-decoration: none;
 }
 
-/* Presentation: October 19., 2015
+/* Presentation: October 19, 2015
 Copy from this to the End comment (37 lines down) for a new presentation section
 Also change .presentationspoilerbutton[value="Presentation: October 19, 2015"] to match the correct date
 */
@@ -107,6 +173,84 @@ Also change .presentationspoilerbutton[value="Presentation: October 19, 2015"] t
 .spoiler {overflow:hidden;background: #f5f5f5;}
 .spoiler > div {-webkit-transition: all 0.3s ease;-moz-transition: margin 0.3s ease;-o-transition: all 0.3s ease;transition: margin 0.3s ease;}
 .presentationspoilerbutton[value="Presentation: October 19, 2015"] + .spoiler > div {margin-top:-100%;}
+.presentationspoilerbutton[value="Hide Presentation"] + .spoiler {padding:5px;} 
+.presentationspoilerbutton {
+  background: #345dd9;
+  background-image: -webkit-linear-gradient(top, #345dd9, #2cb3b8);
+  background-image: -moz-linear-gradient(top, #345dd9, #2cb3b8);
+  background-image: -ms-linear-gradient(top, #345dd9, #2cb3b8);
+  background-image: -o-linear-gradient(top, #345dd9, #2cb3b8);
+  background-image: linear-gradient(to bottom, #345dd9, #2cb3b8);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+
+.presentationspoilerbutton:hover {
+  background: #3caefa;
+  background-image: -webkit-linear-gradient(top, #3caefa, #3484d9);
+  background-image: -moz-linear-gradient(top, #3caefa, #3484d9);
+  background-image: -ms-linear-gradient(top, #3caefa, #3484d9);
+  background-image: -o-linear-gradient(top, #3caefa, #3484d9);
+  background-image: linear-gradient(to bottom, #3caefa, #3484d9);
+  text-decoration: none;
+}
+</style>
+/*End*/
+/* Presentation: October 25, 2015
+Copy from this to the End comment (37 lines down) for a new presentation section
+Also change .presentationspoilerbutton[value="Presentation: October 25, 2015"] to match the correct date
+*/
+<style type="text/css">
+/* animated spoiler CSS by Bloggersentral.com */
+.presentationspoilerbutton {display:block;mar3in:5px 0;}
+.spoiler {overflow:hidden;background: #f5f5f5;}
+.spoiler > div {-webkit-transition: all 0.3s ease;-moz-transition: margin 0.3s ease;-o-transition: all 0.3s ease;transition: margin 0.3s ease;}
+.presentationspoilerbutton[value="Presentation: October 25, 2015"] + .spoiler > div {margin-top:-100%;}
+.presentationspoilerbutton[value="Hide Presentation"] + .spoiler {padding:5px;} 
+.presentationspoilerbutton {
+  background: #345dd9;
+  background-image: -webkit-linear-gradient(top, #345dd9, #2cb3b8);
+  background-image: -moz-linear-gradient(top, #345dd9, #2cb3b8);
+  background-image: -ms-linear-gradient(top, #345dd9, #2cb3b8);
+  background-image: -o-linear-gradient(top, #345dd9, #2cb3b8);
+  background-image: linear-gradient(to bottom, #345dd9, #2cb3b8);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+
+.presentationspoilerbutton:hover {
+  background: #3caefa;
+  background-image: -webkit-linear-gradient(top, #3caefa, #3484d9);
+  background-image: -moz-linear-gradient(top, #3caefa, #3484d9);
+  background-image: -ms-linear-gradient(top, #3caefa, #3484d9);
+  background-image: -o-linear-gradient(top, #3caefa, #3484d9);
+  background-image: linear-gradient(to bottom, #3caefa, #3484d9);
+  text-decoration: none;
+}
+</style>
+/*End*/
+/* Presentation: October 19, 2015
+Copy from this to the End comment (37 lines down) for a new presentation section
+Also change .presentationspoilerbutton[value="Presentation: October 19, 2015"] to match the correct date
+*/
+<style type="text/css">
+/* animated spoiler CSS by Bloggersentral.com */
+.presentationspoilerbutton {display:block;mar3in:5px 0;}
+.spoiler {overflow:hidden;background: #f5f5f5;}
+.spoiler > div {-webkit-transition: all 0.3s ease;-moz-transition: margin 0.3s ease;-o-transition: all 0.3s ease;transition: margin 0.3s ease;}
+.presentationspoilerbutton[value="Presentation: November 02, 2015"] + .spoiler > div {margin-top:-100%;}
 .presentationspoilerbutton[value="Hide Presentation"] + .spoiler {padding:5px;} 
 .presentationspoilerbutton {
   background: #345dd9;
@@ -207,4 +351,19 @@ Also change .presentationspoilerbutton[value="Presentation: October 19, 2015"] t
   background-image: linear-gradient(to bottom, #36eb7f, #34b8d9);
   text-decoration: none;
 }
+</style>
+
+<style type="text/css">
+  ul {list-style: none;padding: 10px;margin: 0px; width: 800px;}
+  ul li {display: block;position: relative;float: left;border:1px solid #000;}
+  li ul {display: none;}
+  ul li a {display: block;background: #000;padding: 5px 10px 5px 10px;text-decoration: none;
+           white-space: nowrap;color: #fff;}
+  ul li a:hover {background: #f00;}
+  li:hover ul {display: block; position: absolute;}
+  li:hover li {float: none;}
+  li:hover a {background: #f00;}
+  li:hover li a:hover {background: #000;}
+  #drop-nav li ul li {border-top: 1000px; }
+
 </style>

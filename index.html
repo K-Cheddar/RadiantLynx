@@ -6,30 +6,31 @@
 		<title>Main page</title>
 		<link rel="stylesheet" href="styles.css"/>
 	</head>
-
 	<body>
 		<div id="lynx">
 			<img src="lynx.png">
 		</div>
-		<div class="center-text">
-			<h1 class="center-text">
-				<a href="index.html" class="homeButton">Home</a>
-			</h1>
-
 			<div>
-				<table class="link-tab">
-					<tr>
-						<td><a href="summary.html" class="barButton">Summary</a></td>
-						<td class="pad-cell-left"><a href="references.html" class="barButton">References</a></td>
-						<td class="pad-cell-left"><a href="presentation.html" class="barButton">Presentation</a></td>
-						<td class="pad-cell-left"><a href="aboutus.html" class="barButton">Team: Radiant Lynx</a></td>
-					</tr>
-				</table>
+				<ul id="drop-nav">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="summary.html">Summary</a></li>
+				  <li><a href="references.html">References</a></li>
+				  <li><a href="presentation.html">Presentation</a>
+				    <ul>
+				      <li><a href="#">Presentation 1</a></li>
+				      <li><a href="#">Presentation 2</a></li>
+				      <li><a href="#">Presentation 3</a></li>
+				      <li><a href="#">Presentation 4</a></li>
+				    </ul>
+				  </li>
+				  <li><a href="aboutus.html">Team: Radiant Lynx</a></li>
+				</ul>
 			</div>
-			
-			<p class="shift-text-down">
+			<br/>
+			<div id ="section">
+			<p class="shift-text-down center-text">
 				CAP3027-2015 We are in charge of Raytracing.
 			</p>
-		</div>
+			</div>
 	</body>
 </html>

@@ -8,30 +8,31 @@
 	</head>
 
 	<body>
-		<div>
-			<h1 class="center-text">
-				<a href="index.html" class="homeButton">Home</a>
-			</h1>
-
-			<div>
-				<table class="link-tab">
-					<tr>
-						<td><a href="summary.html" class="barButton">Summary</a></td>
-						<td class="pad-cell-left"><a href="references.html" class="barButton">References</a></td>
-						<td class="pad-cell-left"><a href="presentation.html" class="barButton">Presentation</a></td>
-						<td class="pad-cell-left"><a href="aboutus.html" class="barButton">Team: Radiant Lynx</a></td>
-					</tr>
-				</table>
-			</div>
+		<div id="lynx">
+			<img src="lynx.png">
 		</div>
-
+		<div>
+			<ul id="drop-nav">
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="summary.html">Summary</a></li>
+			  <li><a href="references.html">References</a></li>
+			  <li><a href="presentation.html">Presentation</a>
+			    <ul>
+			      <li><a href="#">Presentation 1</a></li>
+			      <li><a href="#">Presentation 2</a></li>
+			      <li><a href="#">Presentation 3</a></li>
+			      <li><a href="#">Presentation 4</a></li>
+			    </ul>
+			  </li>
+			  <li><a href="aboutus.html">Team: Radiant Lynx</a></li>
+			</ul>
+		</div>
 		<br/>
-
-		<p class="large-text center-text" style="margin: 0px;">
-			References
-		</p>
-		
-		<div class="center-text" style="margin: 20px">
+		<div id ="sectionReferences">
+			<p class="large-text center-text" style="margin: 0px;">
+				References
+			</p>
+		<div>
 			<h3>
 				<a href="https://www.cs.unc.edu/~rademach/xroads-RT/RTarticle.html">
 					Ray Tracing: Graphics for the Masses
@@ -59,7 +60,7 @@
 			Resources
 		</p>
 
-		<div class="center-text" style="margin: 20px">
+		<div>
 			<h3>
 				<a href="https://www.cl.cam.ac.uk/teaching/2003/AdvGraph/raytracing.html">
 					The ray tracing algorithm: a simplistic pseudocode version
@@ -80,6 +81,6 @@
 				Own, Scott. "Ray Object Intersections." www.siggraph.org. ACMSIGGRAPH, 02 Jun, 1999. Web. 25 Oct. 2015.
 			</p>
 		</div>
-
+	</div>
 	</body>
 </html>
