@@ -280,6 +280,45 @@ Also change .presentationspoilerbutton[value="Presentation: October 19, 2015"] t
 }
 </style>
 /*End*/
+/* Presentation: October 19, 2015
+Copy from this to the End comment (37 lines down) for a new presentation section
+Also change .presentationspoilerbutton[value="Presentation: November 16, 2015"] to match the correct date
+*/
+<style type="text/css">
+/* animated spoiler CSS by Bloggersentral.com */
+.presentationspoilerbutton {display:block;mar3in:5px 0;}
+.spoiler {overflow:hidden;background: #f5f5f5;}
+.spoiler > div {-webkit-transition: all 0.3s ease;-moz-transition: margin 0.3s ease;-o-transition: all 0.3s ease;transition: margin 0.3s ease;}
+.presentationspoilerbutton[value="Presentation: November 16, 2015"] + .spoiler > div {margin-top:-100%;}
+.presentationspoilerbutton[value="Hide Presentation"] + .spoiler {padding:5px;} 
+.presentationspoilerbutton {
+  background: #345dd9;
+  background-image: -webkit-linear-gradient(top, #345dd9, #2cb3b8);
+  background-image: -moz-linear-gradient(top, #345dd9, #2cb3b8);
+  background-image: -ms-linear-gradient(top, #345dd9, #2cb3b8);
+  background-image: -o-linear-gradient(top, #345dd9, #2cb3b8);
+  background-image: linear-gradient(to bottom, #345dd9, #2cb3b8);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+
+.presentationspoilerbutton:hover {
+  background: #3caefa;
+  background-image: -webkit-linear-gradient(top, #3caefa, #3484d9);
+  background-image: -moz-linear-gradient(top, #3caefa, #3484d9);
+  background-image: -ms-linear-gradient(top, #3caefa, #3484d9);
+  background-image: -o-linear-gradient(top, #3caefa, #3484d9);
+  background-image: linear-gradient(to bottom, #3caefa, #3484d9);
+  text-decoration: none;
+}
+</style>
+/*End*/
 
 <style type="text/css">
 /* animated spoiler CSS by Bloggersentral.com */
